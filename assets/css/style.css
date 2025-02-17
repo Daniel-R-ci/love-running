@@ -235,6 +235,14 @@ main {
   font-style: normal;
 }
 
+/* Media query: large or landscape ohones (576 px and up) */
+@media screen and (min-width: 576px){
+    #photos{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger */
 @media screen and (min-width: 768px) {
   /* Header */
@@ -290,12 +298,20 @@ main {
     align-self: flex-end;
 
   }
+
+  #photos{
+    column-count: 3;
+  }
 }
 
 /* Media query, laptops and larger */
 @media screen and (min-width: 992px) {
     #menu a:hover {
       border-bottom: 1px solid #3a3a3a;
+    }
+
+    #photos{
+        column-count: 4;
     }
 }
 
@@ -327,6 +343,8 @@ main {
     #benefits-physical > div{
         align-self: flex-end;
     }
+
+
     
 
 }
