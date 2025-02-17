@@ -96,7 +96,7 @@ main {
 #hero {
   height: 600px;
   width: 100%;
-  background-color: lightgreen;
+  /*background-color: lightgreen;*/
   background: url("../images/hero-image.webp") no-repeat center center/cover;
   position: relative;
 }
@@ -144,6 +144,28 @@ main {
 #benefits p {
   padding: 0 20px;
 }
+
+/* Benefits image */
+#circle-cover-bg
+{
+    background: url("../images/reasons-image.webp") no-repeat center center / cover;
+    margin-bottom: 20px;
+    height: 90vw;
+    width: 90vw;
+    /* Make a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 /* Footer */
 #social-networks {
