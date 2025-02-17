@@ -266,7 +266,7 @@ main {
   color: #3a3a3a;
 }
 
-/* Font classes copied from Google Fonts */
+/* Font classes copied from Google Fonts 
 .lato-light {
   font-family: "Lato", serif;
   font-weight: 300;
@@ -276,9 +276,9 @@ main {
 .oswald-standard {
   font-family: "Oswald", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight:bold;
   font-style: normal;
-}
+}*/
 
  
 
@@ -400,7 +400,7 @@ main {
     }
 
     #benefits-image{
-        order 0;
+        order: 0;
     }
 
     #benefits-mental{
